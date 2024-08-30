@@ -1,0 +1,232 @@
+{
+  "random_seed": 1,
+
+  "dataset_dir": {
+        "root": "dataset",
+        "inputX": "inputX",
+        "originalImage": "inputX/originImage",
+        "__comment5__": "it will be groundtruth/task",
+        "groundTruth": "groundTruth",
+        "output": "output",
+        "samples": "samples"
+    },
+
+  "dataset_list": [
+    {
+      "name": "ARTNetDataset",
+      "train_val_test_split_ratio": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "__comment1__": [
+        "it's a dict={'train': ['video_name', ...], 'val': [], 'test': []}",
+        "If train, val and test have the same video name, the frames in the video will be split",
+        "according to the split ratio"
+      ],
+      "set_split_preset": {
+        "train": [
+          "set1"
+        ],
+        "val": [
+          "set1"
+        ],
+        "test": [
+          "set2"
+        ]
+      }
+    },
+    {
+      "name": "EndoVis2017",
+      "train_val_test_split_ratio": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "__comment1__": [
+        "it's a dict={'train': ['video_name', ...], 'val': [], 'test': []}",
+        "If train, val and test have the same video name, the frames in the video will be split",
+        "according to the split ratio"
+      ],
+      "set_split_preset": {
+        "train": [
+          "instrument_dataset_1",
+          "instrument_dataset_2",
+          "instrument_dataset_3",
+          "instrument_dataset_4",
+          "instrument_dataset_5",
+          "instrument_dataset_6",
+          "instrument_dataset_7",
+          "instrument_dataset_8"
+        ],
+        "val": [
+          "instrument_dataset_1",
+          "instrument_dataset_2",
+          "instrument_dataset_3",
+          "instrument_dataset_4",
+          "instrument_dataset_5",
+          "instrument_dataset_6",
+          "instrument_dataset_7",
+          "instrument_dataset_8"
+        ],
+        "test": [
+          "instrument_dataset_1_test",
+          "instrument_dataset_2_test",
+          "instrument_dataset_3_test",
+          "instrument_dataset_4_test",
+          "instrument_dataset_5_test",
+          "instrument_dataset_6_test",
+          "instrument_dataset_7_test",
+          "instrument_dataset_8_test",
+          "instrument_dataset_9",
+          "instrument_dataset_10"
+        ]
+      }
+    },
+    {
+      "name": "EndoVis2018",
+      "train_val_test_split_ratio": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "__comment1__": [
+        "it's a dict={'train': ['video_name', ...], 'val': [], 'test': []}",
+        "If train, val and test have the same video name, the frames in the video will be split",
+        "according to the split ratio"
+      ],
+      "set_split_preset": {
+        "train": [
+          "seq_1",
+          "seq_2",
+          "seq_3",
+          "seq_4",
+          "seq_5",
+          "seq_6",
+          "seq_7",
+          "seq_9",
+          "seq_10",
+          "seq_11",
+          "seq_12",
+          "seq_13",
+          "seq_14",
+          "seq_15",
+          "seq_16"
+        ],
+        "val": [
+          "seq_1",
+          "seq_2",
+          "seq_3",
+          "seq_4",
+          "seq_5",
+          "seq_6",
+          "seq_7",
+          "seq_9",
+          "seq_10",
+          "seq_11",
+          "seq_12",
+          "seq_13",
+          "seq_14",
+          "seq_15",
+          "seq_16"
+        ],
+        "test": [
+          "seq_17",
+          "seq_18",
+          "seq_19",
+          "seq_20"
+        ]
+      }
+    },
+    {
+      "name": "UCL",
+      "train_val_test_split_ratio": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "__comment1__": [
+        "it's a dict={'train': ['video_name', ...], 'val': [], 'test': []}",
+        "If train, val and test have the same video name, the frames in the video will be split",
+        "according to the split ratio"
+      ],
+      "set_split_preset": {
+        "train": [
+          "Video_01",
+          "Video_02",
+          "Video_03",
+          "Video_04",
+          "Video_05",
+          "Video_06",
+          "Video_07",
+          "Video_08",
+          "Video_09",
+          "Video_10",
+          "Video_11",
+          "Video_12",
+          "Video_13",
+          "Video_14",
+          "Video_15",
+          "Video_16"
+        ],
+        "val": [
+          "Video_01",
+          "Video_02",
+          "Video_03",
+          "Video_04",
+          "Video_05",
+          "Video_06",
+          "Video_07",
+          "Video_08",
+          "Video_09",
+          "Video_10",
+          "Video_11",
+          "Video_12",
+          "Video_13",
+          "Video_14",
+          "Video_15",
+          "Video_16"
+        ],
+        "test": [
+          "Video_17",
+          "Video_18",
+          "Video_19",
+          "Video_20"
+        ]
+      }
+    },
+    {
+      "name": "CholecSeg8k",
+      "train_val_test_split_ratio": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "__comment1__": [
+        "it's a dict={'train': ['video_name', ...], 'val': [], 'test': []}",
+        "If train, val and test have the same video name, the frames in the video will be split",
+        "according to the split ratio"
+      ],
+      "set_split_preset": {
+      }
+    },
+    {
+      "name": "PascalVOC2012",
+      "train_val_test_split_ratio": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "__comment1__": [
+        "it's a dict={'train': ['video_name', ...], 'val': [], 'test': []}",
+        "If train, val and test have the same video name, the frames in the video will be split",
+        "according to the split ratio"
+      ],
+      "set_split_preset": {
+        "train": ["set1"],
+        "val": ["set1"],
+        "test": ["set2"]
+      }
+    }
+  ]
+}

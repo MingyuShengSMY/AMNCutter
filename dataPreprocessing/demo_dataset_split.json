@@ -1,0 +1,32 @@
+{
+  "random_seed": 1,
+
+  "dataset_dir": {
+        "root": "dataset",
+        "inputX": "inputX",
+        "originalImage": "inputX/originImage",
+        "__comment5__": "it will be groundtruth/task",
+        "groundTruth": "groundTruth",
+        "output": "output",
+        "samples": "samples"
+    },
+
+  "dataset_list": [
+    {
+      "name": "Demo",
+      "train_val_test_split_ratio": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "__set_split_pre_set_comment1__": [
+        "it's a dict={'train': ['video_name', ...], 'val': [], 'test': []}",
+        "If train, val and test have the same video name, the frames in the video will be split",
+        "according to the split ratio",
+        "If empty, it will be random"
+      ],
+      "set_split_preset": {
+      }
+    }
+  ]
+}

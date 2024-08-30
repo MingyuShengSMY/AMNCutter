@@ -1,0 +1,76 @@
+{
+    "method_name": "AMNCutter",
+    "method_config_dict": {
+        "repo": "facebookresearch/dino:main",
+        "name": "dino_vits8",
+        "__candidate_names__": ["dino_resnet50", "dino_vitb16", "dino_vitb8",
+            "dino_vits16", "dino_vits8", "dino_xcit_medium_24_p16", "dino_xcit_medium_24_p8",
+            "dino_xcit_small_12_p16", "dino_xcit_small_12_p8", "resnet50"],
+        "ncutter_dim": 192,
+        "cluster_k": 15,
+        "__cut_layer_list__": ["trans", "conv"],
+        "__cut_layer_list_commont__": ["trans is good"],
+        "cut_layer": "trans",
+        "__aff_mat_op_list__": ["none", "set0", "add1"],
+        "__aff_mat_op_commont__": ["add1 is good"],
+        "aff_mat_op": "add1",
+        "layer_num": 3,
+
+        "multi_view_attn": true
+    },
+    "task": "binary",
+    "dataset_list": [
+        {
+            "name": "Demo",
+            "use_for_train": [
+                "train.txt"
+            ],
+            "use_for_val": [
+                "val.txt"
+            ],
+            "use_for_test": [
+                "test.txt"
+            ]
+        }
+    ],
+
+    "dataset_dir": {
+        "root": "dataset",
+        "inputX": "inputX",
+        "originalImage": "inputX/originImage",
+        "__comment5__": "it will be groundtruth/{task}",
+        "groundTruth": "groundTruth",
+        "output": "output"
+    },
+    "log_dir": "logs",
+
+    "__comment3__": "path_to_model_file, if empty they will be auto filled. see config.py",
+    "load_model_mark": false,
+    "model_load_from": "AMNCutter/EndoVis2018/trained_model",
+    "model_save_dir": "",
+
+    "__comment1__": "empty if no need, better dividable by 8",
+    "model_input_size": [
+        512,
+        512
+    ],
+
+    "epoch_num": 5,
+    "checkpoint_per_epoch_num": 1,
+    "early_stop_patience": 10,
+
+    "batch_size": 4,
+    "batch_size_te": 1,
+    "num_workers": 8,
+
+    "optimizer": "Adam",
+    "learning_rate": 0.0005,
+    "lr_beta1": 0.9,
+    "lr_beta2": 0.999,
+
+    "random_seed": 2024,
+
+    "gpu_mark": true,
+
+    "verbose": true
+}
