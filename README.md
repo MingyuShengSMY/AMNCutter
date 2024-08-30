@@ -1,14 +1,10 @@
 # AMNCutter
 
-[Paper (not released yet)](https_link).
+Code for our paper (unpublished) **[AMNCutter: Affinity-Attention-Guided Multi-View Normalized Cutter for Unsupervised Surgical Instrument Segmentation](hyperlink)**
 
 ## Method Overview
 
 ![](paperFigure/method_overview.png)
-
-## Multi-View Normalized Cutter
-
-![](paperFigure/multi-view_ncutter.png)
 
 ## Setup
 * Recommended Environment: Python 3.10.0+, Cuda 12.0+
@@ -46,7 +42,10 @@ A demo dataset is uploaded and is named "Demo".
 
 ## Data Splitting
 
-Run `python dataPreprocessing/data_train_val_test_split.py --config_file dataPreprocessing/demo_dataset_split.json`.
+```bash
+python dataPreprocessing/data_train_val_test_split.py --config_file dataPreprocessing/demo_dataset_split.json`.
+```
+
 All datasets and their configuration are listed in the config file, including the training and testing sets.
 It will generate a "data_split" directory including 'train.txt', and 'test.txt', under the "DatasetName" directory. `samples.txt` is used for visualization.
 
@@ -54,13 +53,26 @@ Or, you can manually set `txt` files.
 
 ## Run
 
-Run `python main.py --mode train --config_file configFiles/demo_AMNCutter.json`. to train an AMNCutter model with the datasets claimed in the 'json' config file.
-Run `python main.py --mode test --config_file configFiles/demo_AMNCutter.json`. to evaluate an AMNCutter model with the datasets claimed in the 'json' config file.
-Run `python main.py --mode test --vis --config_file configFiles/demo_AMNCutter.json`. to visualize the prediction results and some intermediate feature maps.
+The following command trains an AMNCutter model with the datasets claimed in the 'json' config file.
+```bash
+python main.py --mode train --config_file configFiles/demo_AMNCutter.json`.
+```
+
+
+The following command evaluates an AMNCutter model with the datasets claimed in the 'json' config file.
+```bash
+python main.py --mode test --config_file configFiles/demo_AMNCutter.json`.
+```
+
+
+The following command visualizes the prediction results and some intermediate feature maps, while it may be slower.
+```bash
+python main.py --mode test --vis --config_file configFiles/demo_AMNCutter.json`.
+```
 
 Change configurations in the config file as you want, for more experiments.
 
-`python experiment.py` can run a list of training and testing tasks, where you can adjust it as you want.
+`python experiment.py` can run a list of training and testing tasks.
 
 ## Outputs
 
@@ -69,7 +81,7 @@ It contains csv files of evaluation and output pictures of visualization.
 
 
 ## Citation
-Not released yet
+unpublished yet
 
 
 
