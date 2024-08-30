@@ -4,7 +4,7 @@ Code for our paper (unpublished) **[AMNCutter: Affinity-Attention-Guided Multi-V
 
 ## Method Overview
 
-![](paperFigure/method_overview.png)
+![](paperFigure/method_overview_white.png)
 
 ## Setup
 * Recommended Environment: Python 3.10.0+, Cuda 12.0+
