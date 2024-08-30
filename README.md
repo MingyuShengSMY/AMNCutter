@@ -43,7 +43,7 @@ A demo dataset is uploaded and is named "Demo".
 ## Data Splitting
 
 ```bash
-python dataPreprocessing/data_train_val_test_split.py --config_file dataPreprocessing/demo_dataset_split.json`.
+python dataPreprocessing/data_train_val_test_split.py --config_file dataPreprocessing/demo_dataset_split.json
 ```
 
 All datasets and their configuration are listed in the config file, including the training and testing sets.
@@ -55,19 +55,19 @@ Or, you can manually set `txt` files.
 
 The following command trains an AMNCutter model with the datasets claimed in the 'json' config file.
 ```bash
-python main.py --mode train --config_file configFiles/demo_AMNCutter.json`.
+python main.py --mode train --config_file configFiles/demo_AMNCutter.json
 ```
 
 
 The following command evaluates an AMNCutter model with the datasets claimed in the 'json' config file.
 ```bash
-python main.py --mode test --config_file configFiles/demo_AMNCutter.json`.
+python main.py --mode test --config_file configFiles/demo_AMNCutter.json
 ```
 
 
 The following command visualizes the prediction results and some intermediate feature maps, while it may be slower.
 ```bash
-python main.py --mode test --vis --config_file configFiles/demo_AMNCutter.json`.
+python main.py --mode test --vis --config_file configFiles/demo_AMNCutter.json
 ```
 
 Change configurations in the config file as you want, for more experiments.
