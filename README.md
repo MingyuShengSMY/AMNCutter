@@ -74,6 +74,11 @@ Change configurations in the config file as you want, for more experiments.
 
 `python experiment.py` can run a list of training and testing tasks.
 
+## Download Trained Model
+
+Please download [our model weights](https://drive.google.com/drive/folders/1NSS5sTWtBFGevEb_sbWhYjAxE2nOQMLu?usp=drive_link), and merge it with `saved_models`.
+Please adjust configuration files in `configFiles` to leverage the downloaded weights.
+
 ## Outputs
 
 A directory `outputs` will be generated after running.
