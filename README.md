@@ -38,7 +38,7 @@ A demo dataset is uploaded and is named "Demo".
 
 `inputX`: Origin input frames are stored.
 
-`groundTruth`: Ground truth masks and class indicators (json files) for all segmentation tasks are stored. Masks are saved in gray scale. Mapping between gray scale values and labels is in the class indicator json files.
+`groundTruth`: Ground truth masks and class indicators (json files) for all segmentation tasks are stored. Masks are stored in gray scale. Mapping between gray scale values and labels is in the class indicator json files.
 
 ## Data Splitting
 
@@ -89,7 +89,7 @@ It contains csv files of evaluation and output pictures of visualization.
 
 
 ## Citation
-unpublished yet
+Unpublished yet
 
 
 
