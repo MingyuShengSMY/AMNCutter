@@ -47,6 +47,9 @@ python dataPreprocessing/data_train_val_test_split.py --config_file dataPreproce
 ```
 
 All datasets and their configuration are listed in the config file, including the training and testing sets.
+
+You can adjust the config file for different data splitting purposes.
+
 It will generate a "data_split" directory including 'train.txt', and 'test.txt', under the "DatasetName" directory. `samples.txt` is used for visualization.
 
 Or, you can manually set `txt` files.
