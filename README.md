@@ -1,6 +1,6 @@
 # AMNCutter
 
-Code for our paper (unpublished) **[AMNCutter: Affinity-Attention-Guided Multi-View Normalized Cutter for Unsupervised Surgical Instrument Segmentation]**
+Code for **[AMNCutter: Affinity-Attention-Guided Multi-View Normalized Cutter for Unsupervised Surgical Instrument Segmentation]** (accepted by WACV 2025)
 
 ## Method Overview
 
