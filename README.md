@@ -11,7 +11,7 @@
 <sup>1</sup> [The University of Sydney](https://www.sydney.edu.au/), 
 <sup>2</sup> [Harvard Medical School](https://hms.harvard.edu/)
 
-This paper was accepted by the 2025 IEEE Winter Conference on Applications of Computer Vision ([WACV](https://wacv2025.thecvf.com/)).
+This paper was accepted by the 2025 IEEE/CVF Winter Conference on Applications of Computer Vision ([WACV 2025](https://wacv2025.thecvf.com/)).
 
 ## Method Overview
 
