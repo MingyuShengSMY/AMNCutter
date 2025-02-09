@@ -44,10 +44,12 @@
     },
     "log_dir": "logs",
 
-    "__comment3__": "path_to_model_file, if empty they will be auto filled. see config.py",
+    "__comment3__": "path_to_model_file, if empty they will be auto filled. see config.py.",
     "load_model_mark": false,
+    "__comment3-1__": "'trained_model' is the name of the model weight file not a directory. 'model_load_from' requires the load file's name."
     "model_load_from": "AMNCutter/EndoVis2018/trained_model",
-    "model_save_dir": "",
+    "__comment3-2__": "'model_save_dir' do not need the file name and will auto fill it."
+    "model_save_dir": "AMNCutter/EndoVis2018/",
 
     "__comment1__": "empty if no need, better dividable by 8",
     "model_input_size": [
