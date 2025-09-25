@@ -2,7 +2,7 @@
 # AMNCutter: Affinity-Attention-Guided Multi-View Normalized Cutter for Unsupervised Surgical Instrument Segmentation [[Paper Link](https://arxiv.org/abs/2411.03695)]
 
 
-[Mingyu Sheng](https://mhamilton.net/)<sup>1</sup>,
+[Mingyu Sheng]([https://mhamilton.net/](https://scholar.google.com/citations?user=P7MIBuMAAAAJ&hl=en&oi=ao))<sup>1</sup>,
 [Jianan Fan](https://ieeexplore.ieee.org/author/37090057230)<sup>1</sup>,
 [Dongnan Liu](https://scholar.google.com/citations?hl=en&user=JZzb8XUAAAAJ)<sup>1</sup>,
 [Ron Kikinis](https://scholar.google.com/citations?user=n01L0mEAAAAJ&hl=en&oi=ao)<sup>2</sup>,
