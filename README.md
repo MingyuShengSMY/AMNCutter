@@ -101,19 +101,6 @@ It contains csv files of evaluation and output pictures of visualization.
 
 ## Citation
 
-Arxiv BibTex:
-```
-@misc{sheng2024amncutteraffinityattentionguidedmultiviewnormalized,
-      title={AMNCutter: Affinity-Attention-Guided Multi-View Normalized Cutter for Unsupervised Surgical Instrument Segmentation}, 
-      author={Mingyu Sheng and Jianan Fan and Dongnan Liu and Ron Kikinis and Weidong Cai},
-      year={2024},
-      eprint={2411.03695},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2411.03695}, 
-}
-```
-
 WACV BibTex:
 ```
 @inproceedings{sheng2025amncutter,
@@ -126,5 +113,18 @@ WACV BibTex:
 }
 ```
 
+
+Arxiv BibTex:
+```
+@misc{sheng2024amncutteraffinityattentionguidedmultiviewnormalized,
+      title={AMNCutter: Affinity-Attention-Guided Multi-View Normalized Cutter for Unsupervised Surgical Instrument Segmentation}, 
+      author={Mingyu Sheng and Jianan Fan and Dongnan Liu and Ron Kikinis and Weidong Cai},
+      year={2024},
+      eprint={2411.03695},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.03695}, 
+}
+```
 
 
