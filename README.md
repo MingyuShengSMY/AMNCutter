@@ -115,7 +115,16 @@ Arxiv BibTex:
 ```
 
 WACV BibTex:
-Coming soon.
+```
+@inproceedings{sheng2025amncutter,
+  title={AMNCutter: Affinity-Attention-Guided Multi-View Normalized Cutter for Unsupervised Surgical Instrument Segmentation},
+  author={Sheng, Mingyu and Fan, Jianan and Liu, Dongnan and Kikinis, Ron and Cai, Weidong},
+  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages={4533--4544},
+  year={2025},
+  organization={IEEE}
+}
+```
 
 
 
